@@ -125,9 +125,7 @@
 
 
             <div class="center">
-                <form>
-
-                    <form method="POST" data-netlify="true">
+                    <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
                         <div class="input-container">
                             <label for="fname">Name</label>
                             <input class="input" type="text" name="name" placeholder="Your name.." required>
@@ -138,7 +136,7 @@
                         </div>
                         <div class="input-container text-area">
                             <label for="message">Message</label>
-                            <textarea name="message" class="input" cols="15" rows="5" placeholder="Your message.." required></textarea>
+                            <textarea class="input" cols="15" rows="5"  name="message" placeholder="Your message.." required></textarea>
                         </div>
                         <input type="submit" value="Submit" class="btn">
                     </form>
