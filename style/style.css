@@ -152,8 +152,8 @@ li a:hover::before {
 }
 
 .container div {
-    margin: 128px 25px 0 0;
-    max-width: 100px;
+    margin: 100px 0px 0 0;
+
     -webkit-animation: bounce 1s;
     animation: bounce 1s infinite;
 }
@@ -183,7 +183,14 @@ li a:hover::before {
     font-size: 20px;
 }
 
-
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn-container span {
+    margin-left: 5px;
+}
 /* About */
 
 #about {
@@ -343,6 +350,7 @@ textarea{
 @media (max-width: 1000px) {
     .columns-2 {
         grid-template-columns: 1fr;
+        /*width: 500px;*/
     }
     .container-2 h5, h1, p {
         text-align: center;
