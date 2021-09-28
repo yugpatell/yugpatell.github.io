@@ -1,1 +1,1 @@
-# (http://yugpatell.com/)[yugpatell.com]
+# [http://yugpatell.com/](yugpatell.com)
