@@ -1,1 +1,1 @@
-# yugpatell.github.io
+# [yugpatell.com](yugpatell.com)
